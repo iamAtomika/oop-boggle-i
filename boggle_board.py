@@ -8,12 +8,12 @@ class BoggleBoard:
         # self._letters = string.ascii_uppercase #none of the letters repeat tho
         self.board = []
         self.letter_dice = [
-            "AACIOT", "ABILTY", "ABJMOQ", "ACDEMP",
-            "ACELRS", "ADENVZ", "AHMORS", "BIFORX",
-            "DENOSW", "DKNOTU", "EEFHIY", "EGKLUY",
-            "EGINTV", "EHINPS", "ELPSTU", "GILRUW"
+            "AAEEGN", "ELRTTY", "AOOTTW", "ABBJOO",
+            "EHRTVW", "CIMOTU", "DISTTY", "EIOSST",
+            "DELRVY", "ACHOPS", "HIMNQU", "EEINSU",
+            "EEGHNW", "AFFKPS", "HLNNRZ", "DEILRX"
         ]
-        ##these are apparently the combos for classic boggle
+        ##combos requested by readme
 
     def shake(self):
         # shake_it = list(self._letters)
